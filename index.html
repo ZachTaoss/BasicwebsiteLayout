@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic website Layout</title>
+</head>
+<body>
+    <a href="aboutus.html">About us Page</a>
+    <a href="image/image.html">Image</a>
+
+    <header>
+<h1 style= color:purple> Header</h1>
+<!-- do search bar later-->
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Protfolio</a></li>
+            <li><a href="#">Calendar</a></li>
+        </ul>
+    </nav>
+    <main>
+<article>
+<h3>Article Heading</h3>
+
+<p>Adipisicing ex irure officia enim labore pariatur ullamco cillum cupidatat consequat. Id dolore ipsum exercitation occaecat tempor eiusmod magna aliquip nisi ea aute fugiat velit et. Ad minim culpa laborum voluptate ullamco ut commodo nulla consequat pariatur. In et ullamco pariatur commodo minim sunt id aute.</p>
+
+<h3>Section Header</h3>
+<section>
+    Eu dolor esse id id dolore mollit sint ullamco reprehenderit ullamco culpa cupidatat. Dolore labore cupidatat irure voluptate mollit eiusmod minim aute adipisicing ex. Commodo consectetur incididunt esse eu aute incididunt voluptate. Eiusmod exercitation elit duis veniam Lorem fugiat aliqua ea anim deserunt veniam est. Mollit ullamco occaecat ad officia veniam incididunt ea sint ullamco pariatur nulla enim anim.
+</section>
+
+<h3>Another Section Header</h3>
+<section>
+    Est labore excepteur aliqua consequat ex et ipsum velit officia cupidatat consectetur ullamco. Labore deserunt enim nostrud minim magna exercitation est eiusmod elit. Nostrud pariatur dolor ad adipisicing consectetur aliqua aliquip proident occaecat pariatur consectetur labore exercitation cillum.
+</section>
+</article>
+
+<aside>
+    <h3>Related contect</h3>
+
+    <ul>
+        <li><a href="#">Videos</a></li>
+        <li><a href="#">Pictures</a></li>
+        <li><a href="#">Article</a></li>
+        <li><a href="#">Protfolio</a></li>
+        <li><a href="#">Calendar</a></li>
+
+
+    </ul>
+</aside>
+<footer>
+    <p>(c) Copyright 2020 by youtule</p>
+</footer>
+
+    </main>
+
+    <p>
+        &Zacute;
+        &abreve;
+        &cacute;
+        &hcirc;
+        &abreve;
+        &racute;
+        &ycirc;
+    </p>
+    <form action="data.json" method="POST">
+        <fieldset>
+            <legend>User Quenstionare</legend>
+            <ul style="list-style-type: none;">
+                <label for="DOB">Date of Birth mm/dd/yyyy</label>
+                <input type="text" id="DOB" name="user.DOB"><br>
+
+                <li><label for="UC">What did you think about your vist</label><br></li>
+                <li><textarea id="UC" name="User.Comment" cols="75" rows="15"></textarea></li>
+                
+                <li><button type="submit">Submit your Quenstionare</button></li>
+
+                <li><button type="reset" value="reset" disabled>Press this button to reset</button></li>
+                
+                <li><label for="image">Please but a jpg image</label></li>
+                <input type="file" id="UC" name="File" accept=".jpg">
+                
+                <li><label for="checkbox">What do you want your pizza</label></li>
+                <li><input type="checkbox" id="Topping" name="UI.Topping.Pepperoni">Pepperoni</li>
+                <li><input type="checkbox" id="Topping" name="UI.Topping.Pineapple">Pineapple</li>
+                <li><input type="checkbox" id="Topping" name="UI.Topping.Sausage">Sausage</li>
+                <li><input type="checkbox" id="Topping" name="UI.Topping.Nothing">Nothing</li>
+
+                <li><label for="Password">Enter your Password </label></li>
+                <li><input type="password" id="Password" name="User.password"></li>
+                
+                <li><label for="soda">What is your fav soda</label></li>
+                <li><input type="radio" id="Dr.Pepper" name="UI.soda.Dr.Pepper" value="user.Dr.Pepper">Dr.Pepper</li>
+                <li><input type="radio" id="Root beer" name="UI.soda.Root beer" value="user.Root beer">Root beer</li>
+                <li><input type="radio" id="Sprite" name="UI.soda.Sprite" value="user.Sprite">Sprite</li>
+                <li><button type="submit">Submit</button></li>
+
+            </ul>
+        </fieldset>
+    </form>
+
+</body>
+</html>
